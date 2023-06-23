@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar .container{
+  margin-left: 0;
+  gap:20px;
+}
+
+.navbar .nav-link{
+  border-radius: 3px;
+  background-color: white;
+}
+
+.navbar .NavHover .nav-link:focus{
+  background-color:orangered;
+  color:white;
+}
+
+.dropdown-toggle::after{
+  margin-left: 10rem !important;
+}
+
+.navbar:hover{
+  background-color: white;
+}
+
+.navbar .dropdown-menu{
+  --bs-dropdown-min-width: 13rem;
+  --bs-dropdown-border-radius:3px;
+}
+
+#NavPage{
+  display: flex;
+  align-items: center ;
+}
+
+svg{
+  color:#ffce3d;
+}
+
+.card-body .card-title{
+ word-wrap: break-word;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ -webkit-line-clamp: 2;
+}
+
+.card-body h5{
+  color:orangered;
+  padding:25px 0 5px 0;
+
+}
+
+.card-body .card-Icon h6{
+  display:inline-flex;
+  align-items: center;
+}
+
+#main {
+  margin-top: 25px;
+}
+
